@@ -1,0 +1,19 @@
+.img_background {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.img_container {
+    border-radius: 50%;
+    border: solid;
+    border-width: 5px;
+    border-color: #444444;
+    width: 100%;
+}
+
+.container_first {
+    background-color: grey;
+    display: flex;
+    width: 25%;
+}
