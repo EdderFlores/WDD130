@@ -3,6 +3,11 @@
     margin: 0 auto;
 }
 
+body {
+    background-color: #50514F;
+    color: white;
+}
+
 .header_nav{
     width: 100%;
     display: flex;
@@ -13,7 +18,7 @@
 .menu_selection a {
     padding-right: 25px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .menu_selection a:hover {
