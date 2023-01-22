@@ -181,7 +181,7 @@ footer p {
 
 .logo {
     width: 80px;
-    padding-top: 5px;
+    padding-left: 20px;
 }
 
 .icon {
@@ -194,3 +194,8 @@ footer p {
     border-radius: 15%;
 }
 
+.header_holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
