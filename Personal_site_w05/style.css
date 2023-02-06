@@ -1,0 +1,30 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #50514F;
+    color: white;
+}
+
+.header_nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_selection a {
+    padding-right: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu_selection a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    text-decoration: underline;
+    padding: 10px;
+}
