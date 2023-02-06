@@ -1,31 +1,23 @@
-
-/* if you are using any Google fonts change the font names below to your fonts. 
-Any spaces in your font name should be replaced with a +. 
-Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 :root {
-  /* change the values below to your colors from your palette */
-  --primary-color: #50514F   ;
-  --secondary-color: #CBD4C2 ;
-  --accent1-color: #247BA0;
-  --accent2-color: white;
+  --primary-color: #F34068   ;
+  --secondary-color: #006B7F ;
+  --accent1-color: #6FA9B7;
+  --accent2-color: #FEFEFE;
 
-  /* change the values below to your chosen font(s) */
   --heading-font: 'Courier New', Courier, monospace;;
   --paragraph-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-  /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #247BA0;  /* headlines on a white background */ 
+  --headline-color-on-white: #006B7F;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #247BA0  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #C3B299;
+  --paragraph-color-on-white: #006B7F; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #FEFEFE; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #6FA9B7  ;
+  --nav-link-color: #FEFEFE;
+  --nav-background-color: #6FA9B7;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #F34068;
 }
 
 
@@ -83,13 +75,13 @@ p {
   height: 3em;
 }
 .primary {
-  background-color: #50514F ;
+  background-color: #F34068 ;
 }
 .secondary {
-  background-color: #CBD4C2;
+  background-color: #006B7F;
 }
 .accent1 {
-  background-color: #247BA0;
+  background-color: #6FA9B7;
 }
 .accent2{
   background-color: var(--accent2-color);
