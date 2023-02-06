@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Calculator App</title>
+</head>
+<body>
+  <div class="calculator">
+    <div class="output">0</div>
+    <button id="clear">C</button>
+    <button id="divide">/</button>
+    <button id="multiply">*</button>
+    <br />
+    <button id="seven">7</button>
+    <button id="eight">8</button>
+    <button id="nine">9</button>
+    <button id="subtract">-</button>
+    <br />
+    <button id="four">4</button>
+    <button id="five">5</button>
+    <button id="six">6</button>
+    <button id="add">+</button>
+    <br />
+    <button id="one">1</button>
+    <button id="two">2</button>
+    <button id="three">3</button>
+    <button id="equals">=</button>
+    <br />
+    <button id="zero">0</button>
+    <button id="decimal">.</button>
+  </div>
+
+  <script>
+    const output = document.querySelector('.output');
+    const buttons = document.querySelectorAll('button');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', function() {
+        let value = this.innerText;
+        let currentOutput = output.innerText;
+        if (value === 'C') {
+          output.innerText = '0';
+        } else if (value === '=') {
+          output.innerText = eval(currentOutput);
+        } else {
+          if (currentOutput === '0') {
+            output.innerText = value;
+          } else {
+            output.innerText += value;
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
