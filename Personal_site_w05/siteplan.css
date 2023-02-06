@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Duru+Sans&family=Exo:wght@500;700&family=Rubik:wght@300;400&display=swap');
 
 :root {
   --primary-color: #F34068   ;
@@ -6,8 +6,8 @@
   --accent1-color: #6FA9B7;
   --accent2-color: #FEFEFE;
 
-  --heading-font: 'Courier New', Courier, monospace;;
-  --paragraph-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  --heading-font: 'Duru Sans', sans-serif;
+  --paragraph-font: 'Rubik', sans-serif;
 
   --headline-color-on-white: #006B7F;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
