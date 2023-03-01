@@ -107,3 +107,35 @@ header {
     font-size: 16px;
     border-radius: 5px;
   }
+
+  .main-section {
+    background-image: url('/personalsitew05/imgs/abstract.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-content {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .cta-button {
+    text-decoration: none;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
