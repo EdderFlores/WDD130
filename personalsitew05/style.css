@@ -33,9 +33,9 @@ header {
     align-items: center;
     padding: 25px 20px;
     z-index: 100;
-  }
+}
   
-  .logo {
+.logo {
     position: absolute;
     top: 0;
     left: 50%;
@@ -46,96 +46,102 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-  }
+}
   
-  .logo img {
+.logo img {
     width: 100px;
     height: 100px;
     transition: transform 0.3s ease-in-out;
-  }
+}
   
-  .logo img:hover {
+.logo img:hover {
     transform: scale(1.2);
-  }
+}
 
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
-  nav li {
-    margin-right: 20px;
-  }
+nav li {
+  margin-right: 20px;
+}
   
-  nav a {
-    text-decoration: none;
-    color: #000;
-    font-size: 18px;
-    position: relative;
-  }
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  position: relative;
+}
 
-  nav a::after {
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0%;
-    height: 2px;
-    background-color: #000;
-    transition: width 0.3s ease-in-out;
-  }
+nav a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s ease-in-out;
+}
 
-  nav a:hover::after {
-    width: 100%;
-  }
+nav a:hover::after {
+  width: 100%;
+}
   
-  .contact-btn {
-    margin-left: auto;
-  }
+.contact-btn {
+  margin-left: auto;
+}
   
-  .contact-btn a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #000;
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 5px;
-  }
+.contact-btn a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
 
-  .main-section {
-    background-image: url('/personalsitew05/imgs/abstract.png');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.main-section {
+  background-image: url('/personalsitew05/imgs/abstract.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
-  .main-content {
-    text-align: center;
-    color: #ffffff;
-  }
+.main-content {
+  text-align: center;
+  color: #ffffff;
+}
+
+.main-content h1 {
+  padding-top: 10rem;
+  font-size: 65px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
   
-  .cta-button {
-    text-decoration: none;
-    background-color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    color: #000000;
-    font-size: 1.2rem;
-    padding: 15px 30px;
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-  }
+.cta-button {
+  text-decoration: none;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  color: #000000;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
   
-  .cta-button:hover {
-    background-color: #000000;
-    color: #ffffff;
-  }
+.cta-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
