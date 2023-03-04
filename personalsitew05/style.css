@@ -102,7 +102,7 @@ nav a:hover::after {
   text-decoration: none;
   display: inline-block;
   padding: 10px 20px;
-  background-color: #000;
+  background-color: var(--secondary-color);
   color: #fff;
   font-size: 16px;
   border-radius: 5px;
@@ -146,6 +146,6 @@ button {
 }
   
 .cta-button:hover {
-  background-color: #000000;
+  background-color: var(--accent1-color);
   color: #ffffff;
 }
