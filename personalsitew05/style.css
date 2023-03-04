@@ -109,7 +109,7 @@ nav a:hover::after {
 }
 
 .main-section {
-  background-image: url('/personalsitew05/imgs/abstract.png');
+  background-image: url('imgs/abstract.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
