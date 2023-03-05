@@ -106,6 +106,7 @@ nav a:hover::after {
   background-color: var(--secondary-color);
   color: #fff;
   font-size: 16px;
+  border: none;
   border-radius: 5px;
 }
 
@@ -180,4 +181,11 @@ button {
   width: 100px;
   opacity: 1;
   filter: contrast(120%);
+}
+
+.about_section {
+  background-color: #fff;
+  color: #000;
+  padding: 1% 10%;
+  font-size: 20pt;
 }
