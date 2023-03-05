@@ -186,6 +186,26 @@ button {
 .about_section {
   background-color: #fff;
   color: #000;
-  padding: 1% 10%;
+  padding: 2% 10%;
   font-size: 20pt;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_column {
+  display: flex;
+  align-items: center;
+}
+
+.footer_column i {
+  margin-right: 10px;
 }
